@@ -10,6 +10,8 @@ Um sistema distribuído, onde o professor cadastra e envia informações aos alu
 
 # Como executar o código
 
+- Código feito em Java 11 LTS
+
 - Primeiro inicie a classe ChatServer.java, pois ela iniciará o servidor responsável pela troca de mensagens Cliente-Servidor.
 - Após isso, inicie a classe ChatClient.java, você pode inicia-la quantas vezes quiser, dependendo do número de alunos que deseja conectar no sistema. Essa classe irá receber as informações inseridas pelo professor ao servidor.
 - Por último, inicie a classe Professor.java, aqui é onde o professor cadastra os dados dos alunos, escolhe as requisições e envia mensagens personalizadas para o servidor.
